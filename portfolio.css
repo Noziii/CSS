@@ -1,0 +1,192 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background: url(jess-bailey-5xjw079i6Q4-unsplash.jpg);
+      backdrop-filter: blur(20px);
+      background-size: cover;
+      height: 105vh;
+
+  }
+
+  .pg {
+    margin-left: 700px;
+    font-family: lucida handwriting;
+    font-size: 50px;
+    
+  }
+
+  nav {
+    background: rgba(53, 52, 52, 0.301);
+    backdrop-filter: blur(7px);
+    height: 90px;
+    width: 100%;
+    margin-top: -16px;
+  }
+
+  
+  nav ul li {
+    display: inline-block;
+    margin: 5px;
+    margin-left: 160px;
+    margin-top: 5px;
+  }
+  
+  nav ul li a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  a.active {
+    background: rgb(63, 61, 61);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 15px;}
+
+
+    * {box-sizing:border-box}
+
+  /* Slideshow container */
+ .slideshow-container {
+  max-width: 950px;
+  max-height: 610px;
+ }
+
+ /* Hide the images by default */
+ .mySlides {
+   display: none;
+ }
+
+ .one{
+   width: 160%;
+   height: 780px;
+ }
+
+ .two {
+  width: 160%;
+  height: 780px;
+ }
+
+ .three {
+  width: 160%;
+  height: 780px;
+ }
+
+ .four {
+  width: 160%;
+  height: 780px;
+ }
+
+ .five {
+  width: 160%;
+  height: 780px;
+ }
+
+ .six {
+  width: 160%;
+  height: 780px;
+ }
+
+ .img { 
+  vertical-align: middle;
+ }
+
+ /* Next & previous buttons */
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+ }
+
+ /* Position the "next button" to the right */
+ .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+ }
+
+ .prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+
+ }
+
+ /* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+ }
+
+ /* Caption text */
+ .text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+ }
+
+ 
+
+ /* The dots/bullets/indicators */
+ .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top: -800px;
+ }
+
+ .active, .dot:hover {
+  background-color: #717171;
+ }
+
+ /* Fading animation */
+ .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+ }
+
+ @-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+ }
+
+ @keyframes fade{
+
+from {opacity: .4}
+  to {opacity: 1}
+ }
+
+ .footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 20px;
+  background: rgba(75, 74, 74, 0.301);;
+  margin-top: 5px;
+  
+}
+
+
+
+     
+
+

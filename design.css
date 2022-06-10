@@ -1,0 +1,102 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background: url(jess-bailey-5xjw079i6Q4-unsplash.jpg);
+      backdrop-filter: blur(20px);
+      background-size: cover;
+      height: 114vh;
+
+  }
+
+  .pg {
+    margin-left: 700px;
+    font-family: lucida handwriting;
+
+    
+  }
+
+
+
+  div.picture {
+    margin: 50px;
+    border: 3px solid #ccc;
+    width: 400px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+    
+  }
+  
+  div.picture:hover {
+    border: 3px solid rgb(81, 81, 81);
+  }
+
+  
+  div.picture img {
+    width: 400px ;
+    height: auto; 
+    border-radius: 10px; 
+
+  }
+
+  .guide{
+      height: 300px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: lucida handwriting;
+  }
+
+
+  nav {
+    background: rgba(53, 52, 52, 0.301);
+    backdrop-filter: blur(7px);
+    height: 90px;
+    width: 100%;
+    margin-top: -16px;
+  }
+
+  .name {
+    color: rgb(59, 59, 59);
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 600px;
+    margin-left: 400px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 5px;
+    margin-left: 160px;
+    margin-top: 5px;
+  }
+  
+  nav ul li a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  a.active {
+    background: rgb(63, 61, 61);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 15px;
+  }
+
+  .footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    background: rgba(75, 74, 74, 0.301);;
+    margin-top: 25%;
+    
+  }
+

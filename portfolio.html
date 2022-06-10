@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="normalise.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/4e9b44f205.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" name="" id="check" />
+      <label for="check" class="bars"><i class="fa-solid fa-bars"></i></label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html"> About </a></li>
+        <li><a href="portfolio" class="active">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="design.html">Design</a></li>
+      </ul>
+    </nav>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="clement-helardot-95YRwf6CNw8-unsplash.jpg" class="one" />
+        <div class="text">Website code</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="alabaster-co-3oGPOKA2BC8-unsplash.jpg" class="two" />
+        <div class="text">Graphic design for booklet</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="sigmund-_dJCBtdUu74-unsplash.jpg" class="three" />
+        <div class="text">Layout designs</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="alabaster-co-ulDKjftGa-E-unsplash.jpg" class="four" />
+        <div class="text">Graphic design layout for poster</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="ashkan-forouzani-Kyzup46aa7o-unsplash.jpg" class="five" />
+        <div class="text">Graphics for business card</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="igor-miske-JVSgcV8_vb4-unsplash.jpg" class="six" />
+        <div class="text">Restaurant website</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+    <div class="footer">
+      <p>Email: miss.nozii.sithole@gmail.com</p>
+      <p>Tel: (065) 744 9243</p>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <script src="portfolio.js"></script>
+  </body>
+</html>

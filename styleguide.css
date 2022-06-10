@@ -1,0 +1,260 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background: url(amy-hirschi-szrJ3wjzOMg-unsplash.jpg);
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    height: 212vh;
+  }
+
+  a.active:link {
+      border: 3px solid white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    
+ }
+
+ a.active:hover {
+    background-color: rgba(89, 87, 87, 0.593);
+ }
+
+ nav {
+    background: rgba(53, 52, 52, 0.301);
+    backdrop-filter: blur(20px);
+    height: 90px;
+    width: 100%;
+    margin-top: -16px;
+ }
+
+ .footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 20px;
+  background: rgba(75, 74, 74, 0.301);;
+  margin-top: 10px;
+  
+}
+ .one{
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(234, 233, 233);
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .two{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(234, 233, 233);
+  line-height: 30px;
+  border-radius: 15px;
+  font-family: Lucida handwriting;
+ }
+
+ .three {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(234, 233, 233);
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .four{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(234, 233, 233);
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .five{
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(234, 233, 233);
+  line-height: 30px;
+  border-radius: 15px;
+  
+ }
+
+ .six{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: white;
+  font-size: 20px;
+  background-color: rgba(89, 87, 87, 0.593);
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .seven{
+   background-color: rgb(234, 233, 233);
+   text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .eight{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 15px;
+  background-color: black;
+ }
+
+ .nine{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .ten{
+  background-color:rgba(53, 52, 52, 0.301);
+   text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .eleven {
+  background-color: #aaa;
+  text-align: left;
+ margin-left: 20px;
+ margin-right: 100px;
+ color: black;
+ font-size: 20px;
+ line-height: 30px;
+ border-radius: 15px;
+ }
+
+ .tweleve {
+  background-color:rgb(78, 75, 75) ;
+  text-align: left;
+ margin-left: 20px;
+ margin-right: 100px;
+ color: black;
+ font-size: 20px;
+ line-height: 30px;
+ border-radius: 15px;
+ }
+
+ .thirteen {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .fourteen {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .fifteen {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+ .cite {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  line-height: 30px;
+  border-radius: 15px;
+ }
+
+  
+  
+  .pg {
+    margin-left: 600px;
+    font-family: lucida handwriting;
+    font-size: 50px;
+    
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 5px;
+    margin-left: 160px;
+    margin-top: 30px;
+  }
+  
+  nav ul li a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .bars {
+    font-size: 30px;
+    margin-left: 40px;
+    color: white;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  @media (max-width: 800px) {
+    .bars {
+      display: block;
+    }
+  
+    
+}
