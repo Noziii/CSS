@@ -87,6 +87,32 @@ body {
     color: white;
     text-decoration: none;
   }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .prev {
+    background-color: #8f908f;
+    color: black;
+    float: left;
+    margin-left: -165px;
+    margin-top: -205%;
+  }
+  
+  .next {
+    background-color: #8f908f;
+    color: black;
+    float: right;
+    margin-right: -120px; 
+    margin-top: -205%;
+  }
   
   
   .bars {
