@@ -1,10 +1,10 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      background: url(images/jess-bailey-5xjw079i6Q4-unsplash.jpg);
+      background: url(images/amy-hirschi-szrJ3wjzOMg-unsplash.jpg);
       backdrop-filter: blur(20px);
       background-size: cover;
-      height: 105vh;
+      height: 139vh;
 
   }
 
@@ -49,13 +49,13 @@ body {
     * {box-sizing:border-box}
 
   /* Slideshow container */
- .slideshow-container {
+ .slideshow {
   max-width: 950px;
   max-height: 610px;
  }
 
  /* Hide the images by default */
- .mySlides {
+ .Slides {
    display: none;
  }
 
@@ -87,6 +87,11 @@ body {
  .six {
   width: 160%;
   height: 780px;
+ }
+
+ .seven{
+    width: 160%;
+    height: 780px;
  }
 
  .img { 
@@ -127,16 +132,7 @@ body {
  }
 
  /* Caption text */
- .text {
-  color: #f2f2f2;
-  font-size: 20px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 40px;
-  width: 100%;
-  text-align: center;
- }
-
+ 
  
 
  /* The dots/bullets/indicators */
@@ -183,44 +179,53 @@ from {opacity: .4}
   text-align: center;
   font-size: 20px;
   background: rgba(75, 74, 74, 0.301);;
-  margin-top: 5px;
+  margin-top: 130px;
   
   
 
   @media screen and (max-width: 800px){
-    .bars{
-      display: block;}
-  
-      nav ul{
-       position: relative;
-        width: 100%;
-        background-color: rgba(58, 58, 58, 0.692);
-        height: 100vh;
-        text-align: left;
-        top: 90px;
-        transition: all 1s;
-        left: -120%
-        
-   
-      }
-  
-      nav ul li a {
-        font-size: 25px;
-        color: white;
-        text-transform: uppercase;
-        
-  
-      }
-  
-      #check:checked ~ ul {
-        left: 0;
-      }
+  .bars{
+    display: block;}
+
+    .one, .footer, .name, .pg{
+      width: 100%;
     }
+
+    .me{
+      max-width: 100%;
+      float: left;
+    }
+
+    nav ul{
+     position: relative;
+      width: 100%;
+      background-color: rgba(58, 58, 58, 0.692);
+      height: 100vh;
+      text-align: left;
+      top: 90px;
+      transition: all 1s;
+      left: -120%
+      
+ 
+    }
+
+    nav ul li a {
+      font-size: 25px;
+      color: white;
+      text-transform: uppercase;
+      
+
+    }
+
+    #check:checked ~ ul {
+      left: 0;
+    }
+}
+  
      
 }
 
 
 
+
      
-
-
