@@ -46,6 +46,11 @@ nav ul li a {
   text-decoration: none;
 }
 
+li a:hover{
+  color: rgb(63, 61, 61);
+  
+}
+
 a.active {
   background: rgb(63, 61, 61);
   color: white;
@@ -64,14 +69,48 @@ a.active {
   display: none;
 }
 
-#check {
-  display: none;
-}
 
-@media (max-width: 800px) {
-  .bars {
-    display: block;
-  }
-}
+
+  
+    
+    
+    
+    
+
+    #check {
+      display: none;
+    }
+    
+    @media (max-width: 800px) {
+      .bars {
+        display: block;
+      }
+  
+      nav ul{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(27, 26, 26, 0.837);
+        height: 100vh;
+        top: 63px;
+        left: -110%; 
+        transition: all 1s;
+      }
+  
+      nav ul li{
+        display: block;
+        padding: 30px 180px;
+        text-transform: uppercase;
+      }
+  
+      
+  
+      #check:checked ~ ul {
+        left: 0;
+      }
+    }
+    
+
+
+
 
 
